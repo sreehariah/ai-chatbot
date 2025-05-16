@@ -19,3 +19,5 @@
 -Build the project<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm run build<br>
 </p><br>
+-Start the project<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm start<br>
