@@ -3,7 +3,7 @@
 *****************************Backend******************************<br>
   <br>
 -Install backend project dependencies via requirements.txt<br>
-&nbsp;&nbsp;&nbsp;pip install -r requirements.txt</p><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pip install -r requirements.txt</p><br>
 <p>
 -Run the server<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;python manage.py runserver<br>
