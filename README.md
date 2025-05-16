@@ -1,4 +1,5 @@
 # chatbot
+<p>
 ***************Backend***************
 -Install backend project dependencies via requirements.txt
     pip install -r requirements.txt
@@ -14,3 +15,4 @@
 
 -Build the project
     npm run build
+</p>
