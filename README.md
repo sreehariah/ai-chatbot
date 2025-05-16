@@ -18,6 +18,6 @@
 <br>
 -Build the project<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm run build<br>
-</p><br>
+</p>
 -Start the project<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm start<br>
