@@ -1,6 +1,6 @@
 # chatbot
 <p><br>
-*****************************Backend******************************<br>
+*****************************&nbsp;Backend&nbsp;******************************<br>
   <br>
 -Install backend project dependencies via requirements.txt<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pip install -r requirements.txt</p><br>
@@ -9,9 +9,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;python manage.py runserver<br>
 </p>
 <p><br>
-*****************************Frontend*****************************<br>
-  <br>
--Copy package.json<br>
+*****************************&nbsp;Frontend&nbsp;*****************************<br>
 <br>
 -Installation<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm install<br>
