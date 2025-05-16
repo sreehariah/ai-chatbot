@@ -1,19 +1,19 @@
 # chatbot
-<p>
+<p><br>
 ***************Backend***************<br>
 -Install backend project dependencies via requirements.txt<br>
-    pip install -r requirements.txt</p><br>
-<p><br>
+&nbsp;&nbsp;&nbsp;pip install -r requirements.txt</p><br>
+<p>
 -Run the server<br>
-    python manage.py runserver<br>
-</p><br>
+&nbsp;&nbsp;&nbsp;python manage.py runserver<br>
+</p>
 <p><br>
 **************Frontend**************<br>
 -Copy package.json<br>
 <br>
 -Installation<br>
-    npm install<br>
+&nbsp;&nbsp;&nbsp;npm install<br>
 <br>
 -Build the project<br>
-    npm run build<br>
+&nbsp;&nbsp;&nbsp;npm run build<br>
 </p><br>
