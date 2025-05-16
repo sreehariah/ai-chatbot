@@ -1,0 +1,130 @@
+.chat-container {
+    max-width: 60%;
+    margin: 2rem auto;
+    font-family: sans-serif;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .input-enter-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2px;
+  }
+  
+  .chat-message{
+    gap: 15px;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 6px;
+  }
+  
+  .profile-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+  
+  .chat-log {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    max-height: 560px;
+    overflow-y: auto;
+    gap: 15px;
+  }
+
+  button{
+    background-color: #ffffff;
+    border: none;
+  }
+  
+  .send-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .send-icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  .bot-message {
+    max-width: 65%;
+    background-color: #f0f0f0;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .user-message {
+    display: flex;
+    flex-direction: column;
+    max-width: 99%;
+    text-align: right;
+    margin-right: 0;
+  }
+  
+  .user-box{
+    margin-left: auto;
+    background-color: #2196f3;
+    max-width: fit-content;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .bot-message,
+  .user-message {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .typing-indicator {
+    max-width: 65%;
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: left;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .typing-cursor {
+    font-weight: normal;
+  }
+  
+  .blink {
+    animation: blink 1s step-start infinite;
+    font-weight: bold;
+  }
+  
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+  

@@ -1,0 +1,93 @@
+.chat-container {
+  max-width: 60%;
+  margin: 2rem auto;
+  font-family: sans-serif;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.input-enter-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.chat-message{
+  gap: 15px;
+}
+
+.chat-log {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  max-height: 560px;
+  overflow-y: auto;
+  gap: 15px;
+}
+
+input {
+  width: 83%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+.bot-message {
+  max-width: 65%;
+  background-color: #f0f0f0;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.user-message {
+  display: flex;
+  flex-direction: column;
+  max-width: 95%;
+  text-align: right;
+  margin-right: 0;
+}
+
+.user-box{
+  margin-left: auto;
+  max-width: 65%;
+  align-self: right;
+  background-color: #2196f3;
+  max-width: fit-content;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.bot-message,
+.user-message {
+  margin-top: 8px;
+  margin-bottom: 8px; /* adds vertical spacing between messages */
+}
+
+.typing-indicator {
+  max-width: 65%;
+  background-color: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: left;
+  font-style: italic;
+  color: #555;
+}
+
+.typing-cursor {
+  font-weight: normal;
+}
+
+.blink {
+  animation: blink 1s step-start infinite;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
