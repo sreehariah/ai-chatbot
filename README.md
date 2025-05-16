@@ -6,7 +6,7 @@
 -Run the server
     python manage.py runserver
 
-***************Frontend**************
+**************Frontend**************
 -Copy package.json
 
 -Installation
